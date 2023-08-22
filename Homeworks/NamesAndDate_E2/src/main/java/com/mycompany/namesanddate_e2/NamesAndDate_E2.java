@@ -15,6 +15,7 @@ public class NamesAndDate_E2 {
         firstName = JOptionPane.showInputDialog("Ingresa tu Nombre: ");
         lastName = JOptionPane.showInputDialog("Ingresa tu Apellido: ");
         
+        //Obteniendo Fecha, asignando formato e idioma
         Date dateToday = new Date();
         SimpleDateFormat dateFrmt = new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("es", "ES"));
         String showDate = dateFrmt.format(dateToday);
