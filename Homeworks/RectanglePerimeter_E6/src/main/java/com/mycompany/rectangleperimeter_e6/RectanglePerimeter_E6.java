@@ -27,7 +27,7 @@ public class RectanglePerimeter_E6 {
         
         if (bRectangle == hRectangle)
         {
-            //Validación (Datos distintos)
+            //Validación (Datos Iguales)
             JOptionPane.showMessageDialog(null, "Estamos calculando un rectángulo, no un cuadrado\nIntentalo denuevo" , "Esto es un Cuadrado :)", JOptionPane.PLAIN_MESSAGE);
         }
         else
