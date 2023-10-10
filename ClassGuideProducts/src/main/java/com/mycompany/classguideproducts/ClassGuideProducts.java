@@ -16,9 +16,9 @@ public class ClassGuideProducts {
         System.out.println("1. Producto Fresco");
         System.out.println("2. Producto Refrigerado");
         System.out.println("3. Producto Congelado");
-        int opcion = scanner.nextInt();
+        int opc = scanner.nextInt();
 
-        switch (opcion) {
+        switch (opc) {
             case 1:
                 freshProduct fP = new freshProduct(name);
                 System.out.print("Ingresa la FECHA DE ENVASADO del Producto: ");
