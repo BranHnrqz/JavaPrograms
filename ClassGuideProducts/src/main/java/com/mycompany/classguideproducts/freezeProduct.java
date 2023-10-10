@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.classguideproducts;
 
 /**
- *
  * @author BRANDON
  */
-public class freezeProduct {
-    
+
+public class freezeProduct extends dataProduct{
+    private String temperature;
+
+    public freezeProduct(String name) {
+        super(name);
+    }
+
+    public void setTemperature(String temperature) {
+        this.temperature = temperature;
+    }
+
+    @Override
+    public void showInformation() {
+        super.showInformation();
+        System.out.println("Temperatura: " + temperature);
+    }
+
 }
